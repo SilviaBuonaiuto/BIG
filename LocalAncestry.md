@@ -29,17 +29,11 @@ In this case the reference selected population are: AFR reference populations YR
 
 ### QC:
 
-```bash
-plink --geno 0.05 # (filtered out all variants with missing call rates exceeding the provided value to be removed)
-plink --hwe 0.0001 #(filters out all variants which have Hardy-Weinberg equilibrium exact test p-value below the provided threshold)
-plink --mind 0.1 #(filters out all samples with missing call rates exceeding the provided value to be removed)
-```
+[QC pipeline](https://github.com/SilviaBuonaiuto/BIG/blob/main/Variants.md)
 
 ### **SHAPEIT5**:
-```
-Phase common variants (MAF >= 0.1%)
-Phase rare variants (MAF <= 0.1%) using phased common variants as scaffold
-```
+
+[Phasing pipeline](https://github.com/SilviaBuonaiuto/BIG/blob/main/Variants.md)
 
 ### **Obtaining reference populations data**:
 
