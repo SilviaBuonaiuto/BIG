@@ -52,5 +52,5 @@ while read LINE; do
       	--input-region $IRG \ 
       	--scaffold-region $SRG \
       	--output BIG.chr${chromosome}.phased.chunk$CHK.bcf \
-      	; done < chr${chromosome}.smallerChunks.txt
+      	; done < https://github.com/SilviaBuonaiuto/BIG/tree/main/data/chunks/chr${chromosome}.smallerChunks.txt
 ```
