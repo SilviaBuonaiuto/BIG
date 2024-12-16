@@ -22,4 +22,7 @@ A list of tools and software used in this project, along with their versions:
 * **KING** : to calculate kinship coefficients
 * **hap-ibd** : to identify IBD segments
 
+# Running commands and workflows
 
+[Alignment to reference genome, variant calling, variants QC and phasing](https://github.com/SilviaBuonaiuto/BIG/blob/main/Variants.md)
+[Global and local ancestry inference](https://github.com/SilviaBuonaiuto/BIG/blob/main/Variants.md)
